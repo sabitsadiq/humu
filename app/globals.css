@@ -1,0 +1,15 @@
+@import url("https://fonts.cdnfonts.com/css/segoe-ui-4");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .title {
+    @apply text-[#042F88] text-[24px];
+  }
+}
+* {
+  font-family: "Segoe UI";
+}
+.heading {
+  @apply font-bold text-[34px] lg:text-[38px] xl:text-5xl text-[#000000] pb-4 xl:pb-2;
+}
